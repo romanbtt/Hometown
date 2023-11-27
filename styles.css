@@ -1,0 +1,98 @@
+/**
+Palette: https://coolors.co/5f797f-023f4f-32393d-1d1d1c-494138
+State gray: #5f797f
+Midnight green: #023f4f
+Gunmetal: #32393d
+Eerie black: #1d1d1c
+Taupe: #494138
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero-section {
+    background-image: url("images/montreal.jpg");
+    background-size: cover;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#hero-section h1 {
+    background-color: #1D3557;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+
+#hero-section h2 {
+    background-color: #457B9D;
+    width: 500px;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+
+#activities-section {
+    background-color: #5f797f;
+    height: 480px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#activities-section h3 {
+    padding-top: 39px;
+    margin: 0px 0px 39px 0px;
+}
+
+#activity-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-item {
+    width: 198px;
+}
+
+.activity-item img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#guide-section {
+    width: 400px;
+    background-color: #023f4f;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 6px 0px 0px #1d1d1c;
+
+}
+
+#guide-section img {
+    width: 180px;
+    padding: 20px 10px;
+    border-radius: 35px;
+}
+
+#guide-info {
+    padding: 10px;
+}
+
+#guide-info p {
+    font-style: italic;
+}
+
+.activity-item img:hover {
+    box-shadow: 6px 6px 10px #1d1d1c;
+    cursor: pointer;
+}
